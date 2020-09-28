@@ -27,7 +27,7 @@ namespace aspnetapi
         {
             services.AddControllers();
             // Added this to address redirect issue - Refer https://medium.com/@laimis/couple-issues-with-https-redirect-asp-net-core-7021cf383e00
-            services.AddHttpsRedirection(opt => opt.HttpsPort = 443);
+            // services.AddHttpsRedirection(opt => opt.HttpsPort = 443);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
