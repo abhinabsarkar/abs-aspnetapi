@@ -1,5 +1,5 @@
 # Docker hub image - abhinabsarkar/abs-aspnetapi
-A sample docker app built on Alpine linux 3.1 version using C# dotnet core version 3.1. 
+A sample docker app built on Alpine linux 3.1 version using C# dotnet core version 3.1. This demo API returns details of the server on which it runs, including the host name & ip address. It also returns the time when the API was invoked.
 
 The docker image can be downloaded from docker hub by running the below command 
 ```bash
